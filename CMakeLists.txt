@@ -1,0 +1,126 @@
+cmake_minimum_required(VERSION 3.12)
+project(nachos)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(c++example)
+include_directories(code)
+include_directories(code/build.cygwin)
+include_directories(code/build.linux)
+include_directories(code/build.macosx)
+include_directories(code/filesys)
+include_directories(code/lib)
+include_directories(code/machine)
+include_directories(code/network)
+include_directories(code/test)
+include_directories(code/threads)
+include_directories(code/userprog)
+include_directories(coff2noff)
+
+add_executable(nachos
+        c++example/c++.ps
+        c++example/c++.tex
+        c++example/copyright.h
+        c++example/inheritstack.cc
+        c++example/inheritstack.h
+        c++example/list.cc
+        c++example/list.h
+        c++example/Makefile
+        c++example/stack.cc
+        c++example/stack.h
+        c++example/templatestack.cc
+        c++example/templatestack.h
+        code/build.cygwin/Makefile
+        code/build.cygwin/Makefile.dep
+        code/build.linux/Makefile
+        code/build.linux/Makefile.dep
+        code/build.macosx/Makefile
+        code/build.macosx/Makefile.dep
+        code/filesys/directory.cc
+        code/filesys/directory.h
+        code/filesys/filehdr.cc
+        code/filesys/filehdr.h
+        code/filesys/filesys.cc
+        code/filesys/filesys.h
+        code/filesys/openfile.cc
+        code/filesys/openfile.h
+        code/filesys/pbitmap.cc
+        code/filesys/pbitmap.h
+        code/filesys/synchdisk.cc
+        code/filesys/synchdisk.h
+        code/lib/bitmap.cc
+        code/lib/bitmap.h
+        code/lib/copyright.h
+        code/lib/debug.cc
+        code/lib/debug.h
+        code/lib/hash.cc
+        code/lib/hash.h
+        code/lib/libtest.cc
+        code/lib/libtest.h
+        code/lib/list.cc
+        code/lib/list.h
+        code/lib/sysdep.cc
+        code/lib/sysdep.h
+        code/lib/utility.h
+        code/machine/callback.h
+        code/machine/console.cc
+        code/machine/console.h
+        code/machine/disk.cc
+        code/machine/disk.h
+        code/machine/interrupt.cc
+        code/machine/interrupt.h
+        code/machine/machine.cc
+        code/machine/machine.h
+        code/machine/mipssim.cc
+        code/machine/mipssim.h
+        code/machine/network.cc
+        code/machine/network.h
+        code/machine/stats.cc
+        code/machine/stats.h
+        code/machine/timer.cc
+        code/machine/timer.h
+        code/machine/translate.cc
+        code/machine/translate.h
+        code/network/post.cc
+        code/network/post.h
+        code/test/add.c
+        code/test/halt.c
+        code/test/matmult.c
+        code/test/segments.c
+        code/test/shell.c
+        code/test/sort.c
+        code/threads/alarm.cc
+        code/threads/alarm.h
+        code/threads/kernel.cc
+        code/threads/kernel.h
+        code/threads/main.cc
+        code/threads/main.h
+        code/threads/scheduler.cc
+        code/threads/scheduler.h
+        code/threads/switch.h
+        code/threads/synch.cc
+        code/threads/synch.h
+        code/threads/synchlist.cc
+        code/threads/synchlist.h
+        code/threads/thread.cc
+        code/threads/thread.h
+        code/threads/threadtest.cc
+        code/userprog/addrspace.cc
+        code/userprog/addrspace.h
+        code/userprog/errno.h
+        code/userprog/exception.cc
+        code/userprog/ksyscall.h
+        code/userprog/noff.h
+        code/userprog/synchconsole.cc
+        code/userprog/synchconsole.h
+        code/userprog/syscall.h
+        coff2noff/coff.h
+        coff2noff/coff2noff.c
+        coff2noff/coff2noff.o
+        coff2noff/coff2noff.x86Linux
+        coff2noff/copyright.h
+        coff2noff/Makefile
+        coff2noff/Makefile.dep
+        coff2noff/noff.h
+        CMakeLists.txt
+        COPYRIGHT)
