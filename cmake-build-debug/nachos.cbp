@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nachos"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qingqingluan/Desktop/nachos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qingqingluan/Desktop/nachos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qingqingluan/Desktop/nachos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nachos">
+				<Option output="/Users/qingqingluan/Desktop/nachos/cmake-build-debug/nachos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qingqingluan/Desktop/nachos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/c++example"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.cygwin"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.linux"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.macosx"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/filesys"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/lib"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/machine"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/network"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/test"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/threads"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/userprog"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/coff2noff"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 nachos"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nachos/fast">
+				<Option output="/Users/qingqingluan/Desktop/nachos/cmake-build-debug/nachos" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qingqingluan/Desktop/nachos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/c++example"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.cygwin"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.linux"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/build.macosx"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/filesys"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/lib"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/machine"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/network"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/test"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/threads"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/code/userprog"/>
+					<Add directory="/Users/qingqingluan/Desktop/nachos/coff2noff"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 nachos/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qingqingluan/Desktop/nachos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/CMakeLists.txt">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/COPYRIGHT">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/Makefile">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/c++.ps">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/c++.tex">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/copyright.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/inheritstack.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/inheritstack.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/list.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/list.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/stack.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/stack.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/templatestack.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/c++example/templatestack.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.cygwin/Makefile">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.cygwin/Makefile.dep">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.linux/Makefile">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.linux/Makefile.dep">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.macosx/Makefile">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/build.macosx/Makefile.dep">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/directory.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/directory.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/filehdr.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/filehdr.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/filesys.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/filesys.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/openfile.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/openfile.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/pbitmap.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/pbitmap.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/synchdisk.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/filesys/synchdisk.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/bitmap.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/bitmap.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/copyright.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/debug.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/debug.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/hash.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/hash.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/libtest.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/libtest.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/list.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/list.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/sysdep.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/sysdep.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/lib/utility.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/callback.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/console.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/console.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/disk.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/disk.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/interrupt.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/interrupt.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/machine.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/machine.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/mipssim.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/mipssim.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/network.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/network.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/stats.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/stats.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/timer.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/timer.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/translate.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/machine/translate.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/network/post.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/network/post.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/add.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/halt.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/matmult.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/segments.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/shell.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/test/sort.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/alarm.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/alarm.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/kernel.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/kernel.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/main.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/main.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/scheduler.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/scheduler.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/switch.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/synch.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/synch.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/synchlist.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/synchlist.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/thread.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/thread.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/threads/threadtest.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/addrspace.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/addrspace.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/errno.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/exception.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/ksyscall.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/noff.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/synchconsole.cc">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/synchconsole.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/code/userprog/syscall.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/Makefile">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/Makefile.dep">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/coff.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/coff2noff.c">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/coff2noff.o">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/coff2noff.x86Linux">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/copyright.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/coff2noff/noff.h">
+			<Option target="nachos"/>
+		</Unit>
+		<Unit filename="/Users/qingqingluan/Desktop/nachos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

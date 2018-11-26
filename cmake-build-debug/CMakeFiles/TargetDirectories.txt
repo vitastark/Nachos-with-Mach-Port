@@ -1,0 +1,3 @@
+/Users/qingqingluan/Desktop/nachos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/qingqingluan/Desktop/nachos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qingqingluan/Desktop/nachos/cmake-build-debug/CMakeFiles/nachos.dir
